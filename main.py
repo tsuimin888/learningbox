@@ -381,7 +381,7 @@ class SetWindow:
         color_fill=theme['CanvasButton']['color_fill'],
         color_text=theme['CanvasButton']['color_text'],
         color_outline=theme['CanvasButton']['color_outline'],
-        command=lambda: os.system('start https://github.com/xuejianhui666/learningbox'))
+        command=lambda: os.system('start https://github.com/tsuimin888/learningbox'))
     
     # 保留关闭按钮
     tkintertools.CanvasButton(
