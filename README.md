@@ -1,6 +1,6 @@
 # 任务清单管理应用
 
-一个基于tkintertools和Lingma大模型的低代码开发桌面任务清单管理应用。
+一个基于tkintertools（desgined by Xiaokang2022)和Lingma大模型的低代码开发桌面任务清单管理应用。
 
 ## 功能特性
 
@@ -19,13 +19,12 @@
 ## 使用方法
 1.测试
 python -m pytest test_main.py -v
-2.直接打包
-pip install pyinstaller
-pyinstaller --onefile --windowed --name=学习工具箱 --icon=task.ico main.py
-3.脚本打包
+
+2.脚本打包
 python build.py
-4.批量处理文件
-package_app.bat
+
+3、同目录下手动添加文件
+task.ico tasks.json theme.json config.json
 
 
 ## 许可证
